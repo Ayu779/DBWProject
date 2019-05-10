@@ -1,0 +1,121 @@
+<html>
+    <head>
+    <title>Contact Us !</title>
+        <meta name= viewport content= "width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+	    <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        
+        <style>
+        .social {
+  position: absolute;
+  width: 100%;
+  top: 160%;
+  text-align: center;
+  transform: translateY(-50%);
+}
+
+.social .link {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  border-radius:45%;
+  border: 2px dashed white;
+  background-clip: content-box;
+  padding: 10px;
+  transition: .5s;
+  color: #D7D0BE;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 40px;
+}
+
+.social .link span {
+  display: block;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.social .link:hover {
+  padding: 20px;
+  color: white;
+  margin-left: -5px;
+  transform: translateX(10px) rotate(360deg);
+}
+
+.social .link.google-plus {
+  background-color: tomato;
+  color: white;
+}
+
+.social .link.twitter {
+  background-color: #00ACEE;
+  color: white;
+}
+
+.social .link.facebook {
+  background-color: #3B5998;
+  color: white;
+}
+</style>
+    </head>
+    <body>
+        
+        <header>
+            <nav>
+                <div class ="row clearfix">
+                <a href = "afterloginhome.html"><img src = "images/logo.png" class = "logo">
+                    </a>
+                    
+                    <ul class = "nav1 animated slideInDown" id ="check-class">
+                        <li><a href ="aboutal.html">About Us</a></li>
+                        <li><a href ="cartview.php">Cart</a></li>
+                        <li><a href ="contactal.html">Contact Us</a></li>
+                        <li><a href ="profile.html">My Profile</a></li>
+                        <li><a href ="logout.php">Logout</a></li>
+                    </ul>
+                   <a href="#" class="mobile-icon"  onclick="slideshow()"> <i class="fa fa-bars"></i> </a>
+                       </div>
+            </nav>
+            
+            <div class ="main">
+                
+                <h1><b><u>Contact us on:</u></b></h1><br>
+                AYUSH SAXENA &emsp; &emsp; &emsp; &nbsp; &nbsp;<a href ="tel:+919617355538" style ="text-decoration:none;"> +91 961735538 </a> <br>
+                ATHARVA TRIPATHI &emsp; &emsp;&nbsp;&nbsp;<a href="tel:+917905289805" style ="text-decoration:none;">+91 7905289805</a><br>
+                TRINENDRA MEHRIA &emsp; &emsp;<a href="tel:+919457054445" style ="text-decoration:none;"> +91 9457054445</a><br>
+                SHIVANSHI ARORA &emsp; &emsp; &nbsp;&nbsp;<a href="tel:+919870869755" style ="text-decoration:none;">+91 9870869755</a>
+                <br>
+                <center> OR </center>
+                <div class="social">
+  <a href="https://www.facebook.com/77ayush.saxena.77" class="link facebook" target="_parent"><span class="fa fa-facebook-square"></span></a>
+  <a href="https://twitter.com/AyushSa69970436" class="link twitter" target="_parent"><span class="fa fa-twitter"></span></a>
+  <a href="mailto:ayushsaxena7777@gmail.com" class="link google-plus" target="_parent"><span class="fa fa-google-plus-square"></span></a>
+                </div>
+                </div> 
+                
+
+        </header>
+        
+        <script type="text/javascript">
+		
+		function slideshow(){
+			 var x = document.getElementById('check-class');
+			 if(x.style.display === "none"){
+			 	x.style.display="block";
+			 }else{
+			 	x.style.display="none";
+			 }
+		}	
+
+	</script>
+        
+    </body>
+</html>

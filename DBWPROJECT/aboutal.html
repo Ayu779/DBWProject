@@ -1,0 +1,53 @@
+<html>
+    <head>
+    <title>EAT</title>
+        <meta name= viewport content= "width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+	    <link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        
+        <header>
+            <nav>
+                <div class ="row clearfix">
+                <a href = "afterloginhome.html"><img src = "images/logo.png" class = "logo">
+                    </a>
+                    
+                    <ul class = "nav1 animated slideInDown" id ="check-class">
+                        <li><a href ="aboutal.html">About Us</a></li>
+                        <li><a href ="cartview.php">Cart</a></li>
+                        <li><a href ="contactal.html">Contact Us</a></li>
+                        <li><a href ="profile.html">My Profile</a></li>
+                        <li><a href ="logout.php">Logout</a></li>
+                    </ul>
+                   <a href="#" class="mobile-icon"  onclick="slideshow()"> <i class="fa fa-bars"></i> </a>
+                       </div>
+            </nav>
+            
+            <div class ="main">
+            <h1><u>About the project </u></h1>
+                <font color= "#000"><strong>
+            <p> This project is developed by <span class ="colorchange"> Ayush Saxena(17103108), Trinendra Mehria(17103021), Atharva Tripathi (17103127), Shivanshi Arora(17103116).</span></p>
+                <p>
+                 This project works is aimed for developing an efficient food ordering system that can be used in the food and beverage (F and B) industry which can help the restaurants to quickly and easily manage daily operational task as well as improve the dining experience of customers. It is believed that still have a lot of restaurants are using the traditional method for food ordering processes. By using the traditional method, it arise a lot of human error while the restaurants employees deal with large amount of customers, this issue will did a great impact to the restaurant in terms of profitability. Thus, this project is to propose a suitable food ordering system for F and B industry to solve the problem that mentioned above. The system will become an important tools use for restaurant to improve the management aspect by utilizing computerized system to coordinate each and every food ordering transaction instead of traditional method. In addition, it can also provide efficiency for the restaurant by reducing time consuming, minimize human errors and providing good quality customer service. In terms of the integrity and availability of the system provided, it can be concluded that this system is a suitable solution for the F and B industry.
+                    </p> </strong> </font>
+            </div>
+        </header>
+        
+        <script type="text/javascript">
+		
+		function slideshow(){
+			 var x = document.getElementById('check-class');
+			 if(x.style.display === "none"){
+			 	x.style.display="block";
+			 }else{
+			 	x.style.display="none";
+			 }
+		}	
+
+	</script>
+        
+    </body>
+</html>
